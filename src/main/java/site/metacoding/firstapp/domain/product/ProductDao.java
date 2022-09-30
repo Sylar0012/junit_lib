@@ -7,9 +7,9 @@ public interface ProductDao {
 
     public List<Product> findAll();
 
-    public void insert(Product product);
+    public int insert(Product product);
 
-    public void update(Product product);
+    public int update(Product product);
 
-    public void deleteById(Integer productId);
+    public int deleteById(Integer productId);
 }
